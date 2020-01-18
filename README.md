@@ -1,3 +1,3 @@
 # testeow
 
-Desenvolvimento de Desafio passado pela OW Interactive
+Desafio passado pela OW Interactive
