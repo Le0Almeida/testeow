@@ -1,0 +1,96 @@
+
+@font-face { 
+	font-family: 'Source Sans Pro'; 
+	src: url('http://localhost/interactive/fonts/SourceSansPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face { 
+	font-family: 'Source Sans Pro'; 
+	src: url('http://localhost/interactive/fonts/SourceSansPro-Bold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face { 
+	font-family: 'Source Sans Pro'; 
+	src: url('http://localhost/interactive/fonts/SourceSansPro-Black.ttf') format('truetype');
+	font-weight: 900;
+}
+
+html, body { font-family: 'Source Sans Pro', sans-serif; }
+body { max-width: 1920px; width: 100%; margin: 0 auto!important; }
+.row { width: 100%; margin: 0; }
+
+
+/* =========================
+Header
+========================== */
+#header { max-width: 100%; width: 100%; margin: 0 auto; height: 130px; position: relative; }
+#header div { padding: 0; }
+#header #logo img { height: auto; padding-top: 45px; }
+#header .right-block { height: 130px; width: 100%; display: inline-flex; justify-content: flex-end; }
+#header .right-block #cart { position: relative; }
+#header .right-block #cart span { position: absolute; bottom: 0; right: 0; background: red; border-radius: 100%; color: #ffffff; padding: 0 7px; }
+#header .right-block ul { list-style: none; display: inline-flex; align-items: center; float: right; }
+#header .right-block ul li { padding: 0 20px; }
+#header .right-block ul li #produto-header { font-size: 16px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #909090; }
+
+
+/* =========================
+Slider
+========================== */
+#slider { max-width: 100%; width: 100%; margin: 0 auto; height: auto; }
+#slider .item #slide01 { display: flex; text-align: right; flex-flow: column; flex-direction: column; top: 20%;}
+#slider .item #slide01 h5 { font-size: 72px; color: #ffffff; font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+#slider .item #slide01 p { font-size: 35.75px; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+#slider .item #slide02 { display: flex; text-align: left; flex-flow: column; flex-direction: column; top: 20%;}
+#slider .item #slide02 h5 { font-size: 72px; color: #ffffff; font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+#slider .item #slide02 p { font-size: 35.75px; color: #fff; font-family: 'Source Sans Pro', sans-serif; font-weight: 900; }
+
+
+/* =========================
+Search
+========================== */
+#search { max-width: 100%; width: 100%; margin: 100px auto 80px; height: auto; }
+#search #box-search { max-width: 100%; width: 100%; margin: 0 auto; height: 97px; box-shadow: 0px 0px 20px 20px #eeeeee; display: inline-flex; justify-content: center; align-items: center; padding: 0 40px; }
+#search #box-search form { max-width: 100%; width: 100%; display: inline-flex; padding: 0 20px; }
+#search #box-search h6 { max-width: 25%; width: 100%; font-size: 20px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #909090; text-align: center; }
+#search #box-search .search-container { float: right; max-width: 75%; width: 100%; }
+#search #box-search .search-container input { max-width: 100%; width: 100%; height: 40px; color: #909090; font-family: 'Source Sans Pro', sans-serif; padding: 0 20px; border: 1px solid #909090; }
+#search #box-search .search-container button { background: #8e36b7; border: none; width: 40px; height: 40px; float: right; }
+
+
+/* =========================
+Produtos Home 
+========================== */
+#produtos-home { max-width: 100%; width: 100%; margin: 0 auto; height: auto; }
+#produtos-home #box-produtos { margin-bottom: 40px; box-shadow: 0px 0px 20px 20px #eeeeee; }
+#produtos-home #box-produtos img { max-width: 100%; width: 100%; }
+#produtos-home #box-produtos #description-produto { padding: 10px 30px; }
+#produtos-home #box-produtos #description-produto .head-title { font-size: 14px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #8e36b7; }
+#produtos-home #box-produtos #description-produto .subtitle { font-size: 18px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #434343; }
+#produtos-home #box-produtos #description-produto p { font-size: 16px; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; color: #909090; }
+#produtos-home #box-produtos #description-produto .price { font-size: 25.39px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #434343; }
+#produtos-home #box-produtos .add-cart { border-top: 1px solid #909090; text-align: center; padding: 20px 0; }
+#produtos-home #box-produtos .add-cart:hover { background: #8e36b7; border-color: #8e36b7; color: #ffffff; cursor: pointer; }
+#produtos-home #box-produtos .add-cart:hover #button-cart { color: #ffffff; }
+#produtos-home #box-produtos .add-cart #button-cart { font-size: 16px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; text-transform: uppercase; color: #8e36b7; }
+
+/**** Footer ****/
+#footer { max-width: 100%; width: 100%; height: 95px; margin-top: 60px; background: #bbbbbb; display: flex; justify-content: center; align-items: center; }
+#footer img { display: block; margin: 0 auto; }
+
+
+
+/*****************/
+/* PAGE CARRINHO */
+/*****************/
+#box-carrinho { max-width: 100%; width: 100%; margin: 70px auto; }
+#box-carrinho .row { max-width: 100%; width: 100%; }
+#box-carrinho hr { max-width: 100%; width: 100%; height: 1px; background: #434343; }
+#box-carrinho #titles-carrinho .title-carrinho { font-size: 18px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; text-transform: uppercase; color: #434343; margin: 0 auto; }
+#box-carrinho #conteudo-carrinho { height: 110px; display: flex; justify-content: center; align-items: center; }
+#box-carrinho #titles-carrinho { height: 50px; display: flex; justify-content: center; align-items: center; }
+#box-carrinho #conteudo-carrinho .head-title { font-size: 14px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #8e36b7; margin: 0; padding: 0 0 10px 0; }
+#box-carrinho #conteudo-carrinho .subtitle { font-size: 18px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; color: #434343; margin: 0; padding: 0; }
+#box-carrinho #conteudo-carrinho .price { font-size: 18px; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; color: #434343; margin: 0; padding: 0; }
